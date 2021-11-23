@@ -1,0 +1,65 @@
+
+.FAQ{
+  padding:100px 0 50px;
+  background-color: white;
+  border-bottom: 2px solid silver;
+  .container{
+    .row{
+      .col-12{
+        margin-bottom: 70px;
+        h1{
+          @include head-word;
+          text-align: left;
+          padding-bottom: 30px;
+          font-size: 30px;
+          padding-top: 50px;
+        }
+       .accordion-button::after{
+         background-image: none;
+       }
+        .accordion-button:not(.collapsed){
+          background-color: transparent;
+        }
+        .accordion-button:focus{
+          color: $texColor;
+          box-shadow: none;
+          border-bottom: 2px solid $bgblue;
+        }
+        .accordion-button{
+          padding: 10px 0;
+          font-size: 20px;
+          font-weight: bold;
+          color: $texColor;
+        }
+      }
+      .card-p{
+        .card{
+          border-top: 5px solid $bgblue;
+          text-align: center;
+          padding: 40px 30px ;
+          background-color: #fafbfc;
+          border-radius: 10px;
+          i{
+            text-align: center;
+            font-size: 70px;
+            color: $bgblue;
+          }
+          h1{
+            text-align: center;
+          }
+          p{
+            color: $silver;
+            font-size: 18px;
+          }
+          button{
+            padding:10px 30px;
+            width: 200px;
+            box-shadow: $shadow;
+            font-size: 18px;
+          }
+        }
+
+      }
+    }
+  }
+}

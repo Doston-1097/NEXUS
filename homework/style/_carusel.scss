@@ -1,0 +1,43 @@
+.carusel{
+  padding: 80px 0;
+  background-color:$bgblue;
+  h1{
+    @include head-word;
+    color: white;
+  }
+  .row{
+    .col-12{
+      margin-bottom: 50px;
+      .card{
+        border: none;
+        padding: 0;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: $shadow;
+        .card-body{
+          padding: 0;
+          position: relative;
+
+          .mask{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            transition: .5s;
+            i{
+              color: white;
+              font-size: 40px;
+            }
+          }
+          &:hover .mask{
+            opacity: 1;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.blog {
+  padding: 80px 0 60px;
+  border-bottom: 1px solid silver;
+  background-color: white;
+
+  .container {
+
+
+    h1 {
+      @include head-word
+    }
+
+    .d-flex {
+      padding-bottom: 20px;
+      p {
+        width: 65%;
+        text-align: center;
+        font-size: 20px;
+        color: $silver;
+      }
+    }
+    .row{
+      .col-12{
+        margin-bottom: 50px;
+        .card{
+          border: none;
+          padding: 0;
+          border-radius: 5px;
+          overflow: hidden;
+          box-shadow:0 2px 7px rgba(0,0,0,0.5);
+
+          .card-body{
+            padding: 0;
+            position: relative;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+
+            .mask{
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              background-color: rgba(0, 0, 0, 0.6);
+              opacity: 0;
+              transition: .5s;
+              i{
+                color: white;
+                font-size: 40px;
+              }
+            }
+            &:hover .mask{
+              opacity: 1;
+              cursor: pointer;
+            }
+          }
+          .card-footer{
+            padding-top: 20px;
+            background-color: white;
+            border-bottom: 3px solid $bgblue;
+            h5{
+              color: $texColor;
+              font-weight: bold;
+            }
+            .font-italic{
+              font-style: italic;
+              color: $silver;
+              i{
+                margin-right: 5px;
+              }
+            }
+            p{
+              color: $silver;
+            }
+          }
+        }
+      }
+    }
+  }
+}

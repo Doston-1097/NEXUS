@@ -1,0 +1,45 @@
+.happyGirl{
+  padding: 80px 0 ;
+  background-color: white;
+  border-bottom: 1px solid silver;
+  .container{
+    .row{
+      .col-12{
+        margin-bottom: 40px;
+        img{
+          border-radius: 10px;
+          box-shadow: $shadow;
+        }
+      }
+     .col-12{
+       .card{
+         margin: 20px 0;
+         flex-direction: unset;
+         padding: 10px 20px;
+         border: none;
+         .box{
+           width: 80px;
+           height: 80px;
+           background-color: $bgblue;
+           color: white;
+           border-radius: 50%;
+           i{
+             font-size: 40px;
+           }
+         }
+         .info{
+           width: 80%;
+           h3{
+             color: $texColor;
+           }
+           p{
+             color: $silver;
+             margin: 0;
+           }
+         }
+       }
+     }
+    }
+  }
+
+}

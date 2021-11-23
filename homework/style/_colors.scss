@@ -1,0 +1,13 @@
+$texColor: #071e55;
+$pColor: #405263;
+$blueCol: #0c75fb;
+$bgCol: #fefefe;
+$silver: #818181;
+$bgblue:#1e90ff;
+$shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+@mixin head-word {
+  text-align: center;
+  color: $texColor;
+  font-weight: bold;
+  font-size: 35px;
+}

@@ -1,0 +1,51 @@
+.testimonials{
+  border-bottom:2px solid silver;
+  border-top:2px solid silver ;
+  padding: 80px 0;
+  h1{
+    @include head-word;
+
+  }
+  .row{
+    padding-top: 100px;
+    .col-12{
+      margin-bottom: 100px;
+      .card{
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        position: relative;
+        padding: 80px 45px 30px;
+        border-radius: 10px;
+        text-align: center;
+
+        img{
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          border: 5px solid rgba(252, 252, 252, 1);
+          box-shadow: $shadow;
+          position: absolute;
+          top: -25%;
+          left: 50%;
+          transform: translate(-50%,-10%);
+        }
+        p{
+
+          color: $silver;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+        h5{
+          color: $bgblue;
+        }
+        .d-flex{
+          i{
+            padding: 5px;
+            font-size: 18px;
+            color: gold;
+          }
+        }
+      }
+    }
+  }
+
+}

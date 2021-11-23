@@ -1,0 +1,46 @@
+.contact {
+  padding: 80px 0;
+
+  .container {
+    .col-12
+    {
+      margin-bottom: 50px;
+      h2 {
+        color: $texColor;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        height: 70px;
+        margin-bottom: 20px;
+        outline: none;
+        border: 1px solid #dcdcdc;
+        border-radius: 5px;
+      }
+
+      textarea {
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 20px;
+        font-size: 20px;
+
+      }
+    }
+
+    .col-12 {
+      card {
+        .map{
+          height: 430px;
+        }
+      }
+    }
+  }
+}

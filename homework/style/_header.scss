@@ -1,0 +1,96 @@
+header {
+  padding-bottom: 70px;
+  .navbar-brand{
+    h3{
+      font-weight: bolder;
+      padding: 5px 0;
+    }
+  }
+  .navbar-nav {
+    margin-left: 5%;
+
+
+    li {
+      a {
+        font-weight: 600;
+        color: $texColor !important;
+        padding: 0 10px !important;
+
+        &:active {
+          color: $bgblue !important;
+        }
+      }
+    }
+  }
+
+  .collapse {
+    button {
+      padding: 10px 20px !important;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+  }
+
+  .head-con {
+    padding-top: 200px;
+
+    h1 {
+      font-size: 42px;
+      font-weight: bold;
+      color: $texColor;
+      margin-bottom: 20px;
+
+    }
+
+    p {
+      width: 100%;
+      font-size: 20px;
+      line-height: 1.6;
+      color: $pColor;
+    }
+
+    ul {
+      margin-top: 50px;
+    }
+
+    li {
+      font-size: 20px;
+      line-height: 2;
+      color: $pColor;
+
+      i {
+        margin-right: 20px;
+        font-size: 25px;
+        color: $blueCol;
+      }
+    }
+
+    .card-col {
+      .card {
+        height: 500px;
+        padding: 30px;
+        border: none;
+        border-bottom: 7px solid $blueCol;
+        border-radius: 10px;
+
+        input, select {
+          margin: 10px 0;
+          height: 60px;
+          padding: 10px;
+          border: none;
+          background-color: #F7F8F9;
+          border-radius: 10px;
+          outline: none;
+        }
+
+        button {
+          margin-top: 20px;
+          padding: 20px 0;
+        }
+      }
+
+
+    }
+
+  }
+}

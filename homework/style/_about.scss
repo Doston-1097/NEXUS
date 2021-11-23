@@ -1,0 +1,57 @@
+.about {
+  background-color: white;
+  padding-bottom: 70px;
+
+  .container {
+    padding-top: 100px;
+
+    h1 {
+      @include head-word
+    }
+
+    p {
+      padding-top: 20px;
+      font-size: 22px;
+      color: $pColor;
+    }
+
+    .row {
+      margin-top: 30px;
+
+      .col-12 {
+        margin-bottom: 20px;
+
+        .borbot {
+          border-bottom: 3px solid blue;
+        }
+
+        .card {
+          background-color: $bgCol;
+          padding: 30px;
+
+          .d-flex {
+            i {
+              font-size: 60px;
+              margin-right: 20px;
+              color: $texColor;
+            }
+
+            .info {
+              h3 {
+                margin: 0;
+                color: $texColor;
+                font-size: 22px;
+              }
+
+              p {
+                font-size: 16px;
+                margin: 0;
+                color: $silver;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
